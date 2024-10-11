@@ -1,0 +1,138 @@
+body {
+  background-color: #26335d;
+}
+
+.btn-cstm {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.nav-gap-cstm {
+  gap: 100px;
+}
+.img-cstm {
+  width: 65%;
+  height: 100%;
+}
+.icon-size-cstm {
+  font-size: 72px;
+}
+
+.line-sm-cstm {
+  height: 2px;
+  background-color: #e74040;
+  width: 70px;
+}
+
+.img-cstm1 {
+  width: 105%;
+}
+
+.line-md-cstm {
+  height: 7px;
+  background-color: #e74040;
+  width: 100px;
+}
+.section-gap-cstm {
+  margin-top: 6rem;
+}
+
+.section-gap {
+  margin-top: 15rem;
+}
+
+.h2-cstm {
+  font-size: 45px;
+}
+
+.youtube-container {
+  height: fit-content;
+}
+.youtube-container iframe {
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.star-cstm i {
+  font-size: 25px;
+}
+
+.pd-person-cstm {
+  padding: 50px 130px 15px 130px;
+  text-align: center;
+}
+.img-person-cstm {
+  width: 13%;
+}
+
+.dsnr-font-cstm {
+  font-size: 14px;
+}
+
+.bg-white {
+  padding-bottom: 20px;
+}
+.name-cstm {
+  margin-bottom: 0;
+}
+
+.card-cstm {
+  padding: 20px 50px 20px 50px;
+}
+
+.chevron1-ctsm {
+  position: relative;
+  bottom: -1px;
+}
+
+.chevron-right-cstm {
+  position: absolute;
+  top: 20px;
+}
+.card-cstm i {
+  font-size: 20px;
+}
+
+.input-group {
+  padding: 10px 255px;
+  height: 80px;
+}
+
+.text-link-cstm p {
+  margin-bottom: 10px;
+}
+
+.text-link-i-cstm i {
+  margin-bottom: auto;
+  margin-top: auto;
+  font-size: 25px;
+}
+
+.text-link-i-cstm p {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.text-link-cstm p a,
+.text-link-i-cstm p a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .img-cstm {
+    width: 100%;
+  }
+  .input-group {
+    padding: 10px 0px;
+    height: 80px;
+  }
+}
